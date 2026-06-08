@@ -50,9 +50,9 @@ class Gerente(Funcionario):
         return self.get_salario_fixo() + 1500
 
 funcionarios = [
-    CLT("Ana", "001", 3000),
-    Vendedor("Bruno", "002", 2000, 12000),
-    Gerente("Carla", "003", 5000)
+    CLT("Icaro", "001", 3000),
+    Vendedor("Miguel", "002", 2000, 12000),
+    Gerente("Lucas", "003", 5000)
 ]
 
 for funcionario in funcionarios:
