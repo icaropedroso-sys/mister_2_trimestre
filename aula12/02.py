@@ -1,4 +1,3 @@
-```python
 from flask import Flask, jsonify, request
 import sqlite3
 
@@ -70,4 +69,3 @@ def apagar(id):
 
 if __name__ == "__main__":
     app.run(debug=True)
-```
